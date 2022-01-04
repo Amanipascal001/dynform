@@ -10,12 +10,12 @@ import RadioGroupInput from '../custom_inputs/radioGroupInput';
 import CheckBox from '../custom_inputs/checkBox';
 import MultiValueSelect from '../custom_inputs/selects/multiValueSelect';
 
-import DatePk from '../custom_inputs/dates/DatePk';
-import MobileDatePk from '../custom_inputs/dates/MobileDatePk';
-import TimePk from '../custom_inputs/dates/TimePk';
-import MobileTimePk from '../custom_inputs/dates/MobileTimePk';
-import DateTimePk from '../custom_inputs/dates/DateTimePk';
-import MobileDateTimePk from '../custom_inputs/dates/MobileDateTimePk';
+// import DatePk from '../custom_inputs/dates/DatePk';
+// import MobileDatePk from '../custom_inputs/dates/MobileDatePk';
+// import TimePk from '../custom_inputs/dates/TimePk';
+// import MobileTimePk from '../custom_inputs/dates/MobileTimePk';
+// import DateTimePk from '../custom_inputs/dates/DateTimePk';
+// import MobileDateTimePk from '../custom_inputs/dates/MobileDateTimePk';
 import SingleObjectSelect from '../custom_inputs/selects/singleObjectSelect';
 import MultiObjectSelect from '../custom_inputs/selects/multiObjectSelect';
 import SingleValueSelect from '../custom_inputs/selects/singleValueSelect';
@@ -137,7 +137,7 @@ const RegisterForm = () => {
                    
                     <MultiValueSelect options={options} name="names" selectedItems={formik.values['names']}  label="Multi value select"/>
                     
-                    <SingleValueSelect options={options} name="name"  label="(One name)Single value select"/>
+                    <SingleValueSelect options={options} name="name"  label="(One name) Single value select"/>
                     {/* <SelectMultiple name="names" options={nameList} selectedlist={ [...formik.values['names']] }  /> */}
                     
                     <div style={{height: '20px', paddingTop: '5px', paddingBottom: '15px', marginBottom: '15px'}}>
