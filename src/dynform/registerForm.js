@@ -23,9 +23,6 @@ import SingleValueSelect from '../custom_inputs/selects/singleValueSelect';
 
 
 const options = [
-    'Oliver Hansen',
-    'Van Henry',
-    'April Tucker',
     'Ralph Hubbard',
     'Omar Alexander',
     'Carlos Abbott',
